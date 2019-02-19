@@ -61,10 +61,24 @@ apachectl -k graceful
 apachectl -f /path/to/your/httpd.conf
 apachectl -f /usr/local/apache2/conf/httpd.conf
 
-##Where are the Apache and PHP log files?##
 
-By default, /var/log/apache2/error.log.
+# Where are the Apache and PHP log fiiles:
+By default, /var/log/apache2/error.log
 
 This can be configured in /etc/php5/apache2/php.ini.
+
+# Empty log file using echo command
+echo "" > /var/log/apache2/error.log
+This is the same as
+
+echo  > /var/log/apache2/error.log
+
+# How To Check Ubuntu Version and Other System Information
+
+lsb_release -a
+
+cat /etc/lsb-release
+
+cat /etc/issue
 
 
