@@ -62,7 +62,9 @@ apachectl -f /path/to/your/httpd.conf
 apachectl -f /usr/local/apache2/conf/httpd.conf
 
 ##Where are the Apache and PHP log files?##
+
 By default, /var/log/apache2/error.log.
+
 This can be configured in /etc/php5/apache2/php.ini.
 
 
