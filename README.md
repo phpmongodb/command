@@ -119,3 +119,8 @@ When you are done troubleshooting, disable the slow query log. To do this, run t
 
 
 SET GLOBAL slow_query_log = 'OFF';
+
+# Check used space on ubuntu
+
+df -h
+
