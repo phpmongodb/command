@@ -1,0 +1,11 @@
+sudo launchctl unload /Library/LaunchDaemons/homebrew.mxcl.nginx.plist
+sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.nginx.plist
+
+launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.php@7.1.plist
+launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.php@7.1.plist
+
+launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mariadb.plist
+launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mariadb.plist
+
+launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
