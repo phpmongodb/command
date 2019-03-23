@@ -9,3 +9,15 @@ launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mariadb.plist
 
 launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+
+
+nano /etc/php/7.2/fpm/php.ini
+
+$ sudo service php7.0-fpmstart
+$ sudo service php7.0-fpm stop
+$ sudo service php7.0-fpm restart # <- restart it
+$ sudo service php7.0-fpm reload # <- reload it
+
+
+sudo nano /etc/nginx/nginx.conf
+sudo systemctl reload nginx.service
