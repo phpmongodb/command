@@ -21,3 +21,5 @@ $ sudo service php7.2-fpm reload # <- reload it
 
 sudo nano /etc/nginx/nginx.conf
 sudo systemctl reload nginx.service
+
+/var/log/nginx/error.log
