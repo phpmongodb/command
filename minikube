@@ -17,5 +17,8 @@ rm -rf ~/.minikube
 This will be show detail
  minikube -v10 start 
  
- Note install vertualbox before start minikube
+ Note : install vertualbox before start minikube
 
+
+TIP : You can run minikube ssh to log into the Minikube VM and explore it
+from the inside. For example, you may want to see what processes are running on the node.
