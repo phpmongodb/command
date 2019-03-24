@@ -1,0 +1,10 @@
+Install and Set Up kubectl
+
+Run the installation command:
+
+brew install kubernetes-cli
+sudo port install kubectl 
+
+Test to ensure the version you installed is sufficiently up-to-date:
+
+kubectl version
