@@ -6,11 +6,16 @@ brew cask install minikube
 
 
 If you have previously installed minikube, and run:
-
 minikube start
+
 And this command returns an error:
-
 machine does not exist
-You need to wipe the configuration files:
 
+You need to wipe the configuration files:
 rm -rf ~/.minikube
+
+This will be show detail
+ minikube -v10 start 
+ 
+ Note install vertualbox before start minikube
+
