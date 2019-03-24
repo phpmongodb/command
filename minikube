@@ -1,0 +1,16 @@
+Install Minikube
+macOS
+The easiest way to install Minikube on macOS is using Homebrew:
+
+brew cask install minikube
+
+
+If you have previously installed minikube, and run:
+
+minikube start
+And this command returns an error:
+
+machine does not exist
+You need to wipe the configuration files:
+
+rm -rf ~/.minikube
