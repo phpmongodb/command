@@ -123,4 +123,5 @@ SET GLOBAL slow_query_log = 'OFF';
 # Check used space on ubuntu
 
 df -h
+du -sh *
 
