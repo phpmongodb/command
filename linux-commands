@@ -6,3 +6,5 @@ hostnamectl
 Type the following command to find Linux kernel version:
 uname -r
 
+Centos
+cat /etc/redhat-release
