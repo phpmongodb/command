@@ -1,0 +1,3 @@
+Start 
+cd elasticsearch-6.6.1/bin
+./elasticsearch
