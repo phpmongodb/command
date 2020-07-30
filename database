@@ -23,3 +23,7 @@ sudo service bitnami restart
 
 https://docs.bitnami.com/vmware-templates/infrastructure/mariadb/administration/control-services/
 
+Repate Databases
+
+mysqlcheck -u root -p --auto-repair --check --all-databases
+
